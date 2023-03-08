@@ -1,0 +1,32 @@
+<!-- File: tanulo.ng
+ Author: Szabó Brigitta
+ Copyright: 2023, Szabó Brigitta
+ Group: Szoft II/N
+ Date: 2023-03-08
+ Github: https://github.com/tailorbrigit/
+ Licenc: GNU GPL -->
+
+
+<div class="container mt-3">
+    <h1 class="text-center">Tanulók</h1>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nema</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Group</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="col" *ngFor="let tanulo of tanulok">
+          <td>{{student.id}}</td>
+          <td>{{student.name}}</td>
+          <td>{{student.gender}}</td>
+          <td>{{student.group}}</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
